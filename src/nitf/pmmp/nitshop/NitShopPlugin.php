@@ -1,6 +1,6 @@
 <?php
 
-namespace nitf\nitshop;
+namespace nitf\pmmp\nitshop;
 
 use pocketmine\plugin\PluginBase;
 

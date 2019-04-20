@@ -6,13 +6,13 @@ use pocketmine\utils\Config;
 
 class ConfigManager {
 
-    private static $config = null;
+    private static $config = [];
 
     public static function init(string $path): void {
-        self::$config = new Config($path . "Item.yml", Config::YAML);
+        self::$config["Item"] = new Config($path . "Item.yml", Config::YAML);
     }
 
-    protected function getConfig(): ?Config {
-        return self::$config;
+    protected function getConfig(string $name): ?Config {
+        return self::$config[$name];
     }
 }

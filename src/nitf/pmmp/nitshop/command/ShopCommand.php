@@ -11,6 +11,6 @@ class ShopCommand extends Command {
         parent::__construct("shop", "NITSHOP", "/shop");
     }
 
-    public function execute(CommandSender $sender, string $label, array $args): bool {
+    public function execute(CommandSender $sender, string $commandLabel, array $args): bool {
     }
 }

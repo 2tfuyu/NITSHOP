@@ -8,8 +8,10 @@ class ConfigManager {
 
     private static $config = [];
 
-    public static function init(string $path): void {
-        self::$config["Item"] = new Config($path . "Item.yml", Config::YAML);
+    public static function init(string $path, array $names): void {
+        foreach ($names as $name) {
+            self::$config[$name] = new Config($path . $name . ".yml", Config::YAML);
+        }
     }
 
     protected function getConfig(string $name): ?Config {

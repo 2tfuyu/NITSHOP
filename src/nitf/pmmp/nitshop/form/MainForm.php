@@ -3,6 +3,7 @@
 namespace nitf\pmmp\nitshop\form;
 
 use pocketmine\Player;
+use jojoe77777\FormAPI\SimpleForm;
 
 class MainForm extends Form {
 
@@ -10,7 +11,6 @@ class MainForm extends Form {
         $function = function (Player $player, int $button = 0) {
 
         };
-
         $data = [
             "title" => "MainForm",
             "content" => "",
@@ -19,7 +19,6 @@ class MainForm extends Form {
                 "sample"
             ]
         ];
-
-        parent::__construct($function, $data);
+        parent::__construct($function, $data, SimpleForm::class);
     }
 }

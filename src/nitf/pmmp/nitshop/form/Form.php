@@ -2,6 +2,8 @@
 
 namespace nitf\pmmp\nitshop\form;
 
+use pocketmine\Player;
+
 abstract class Form {
 
     private $functions = [];
@@ -15,7 +17,7 @@ abstract class Form {
         $this->paths[$class] = $path;
     }
 
-    protected function call(): void {
+    public function call(Player $player): void {
         $class = get_class($this);
         $api = new $this->paths[$class]($this->functions[$class]);
         foreach ($this->data[$class] as $data) {
@@ -54,5 +56,6 @@ abstract class Form {
                     break;
             }
         }
+        $api->sendToPlayer($player);
     }
 }

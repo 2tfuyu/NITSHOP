@@ -6,18 +6,18 @@ use pocketmine\Player;
 
 abstract class Form {
 
-    private $functions = null;
+    private $function = null;
     private $data = [];
-    private $paths = "";
+    private $path = "";
 
     public function __construct(?callable $callable, array $data_array, string $path) {
-        $this->functions = $callable;
+        $this->function = $callable;
         $this->data = $data_array;
-        $this->paths = $path;
+        $this->path = $path;
     }
 
     public function call(Player $player): void {
-        $api = new $this->paths($this->functions);
+        $api = new $this->path($this->function);
         foreach ($this->data as $data) {
             switch (key($data)) {
                 case "title":

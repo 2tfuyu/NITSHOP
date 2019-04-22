@@ -14,7 +14,7 @@ class ConfigManager {
         }
     }
 
-    protected function getConfig(string $name): ?Config {
+    public function getConfig(string $name): ?Config {
         return self::$config[$name];
     }
 }

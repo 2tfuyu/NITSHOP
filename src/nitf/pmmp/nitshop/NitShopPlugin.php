@@ -15,6 +15,10 @@ class NitShopPlugin extends PluginBase {
         }
         $this->getServer()->getCommandMap()->register('shop', new ShopCommand());
 
-        ConfigManager::init($path, ["Item", "Form"]);
+        $files = ["Item", "Form"];
+        ConfigManager::init($path, $files);
+        foreach ($files as $file) {
+            $this->saveResource($file . ".yml");
+        }
     }
 }

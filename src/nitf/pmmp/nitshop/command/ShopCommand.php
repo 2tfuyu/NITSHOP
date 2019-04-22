@@ -5,6 +5,7 @@ namespace nitf\pmmp\nitshop\command;
 use nitf\pmmp\nitshop\form\MainForm;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\Player;
 
 class ShopCommand extends Command {
 
@@ -16,7 +17,6 @@ class ShopCommand extends Command {
         if (!$sender instanceof Player) {
             return false;
         }
-
         $main_form = new MainForm();
         $main_form->register();
         $main_form->call($sender);

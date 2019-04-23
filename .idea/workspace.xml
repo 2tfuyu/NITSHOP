@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ecb6f5e-7180-4a84-a698-e6db4bf25a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/BlockForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#37#79#0#PHP" expanded="true" />
               </folding>
@@ -35,10 +31,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/command/ShopCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
               <folding>
                 <element signature="e#45#81#0#PHP" expanded="true" />
               </folding>
@@ -49,10 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="351">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
-                <element signature="e#42#64#0#PHP" expanded="true" />
+                <element signature="e#42#85#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,11 +72,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/BlockForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#42#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ConfirmForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="e#42#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="181">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -79,7 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-91">
+              <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
               <folding>
                 <element signature="e#45#88#0#PHP" expanded="true" />
               </folding>
@@ -90,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/config/ConfigManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,20 +135,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/MainForm.php" />
-        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" />
         <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ButtonIds.php" />
-        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" />
         <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/command/ShopCommand.php" />
-        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" />
-        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/config/ConfigManager.php" />
         <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/config/ConfigManager.php" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/BlockForm.php" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" />
+        <option value="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ConfirmForm.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
-    <option name="y" value="99" />
+    <option name="x" value="106" />
+    <option name="y" value="-11" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -169,11 +202,13 @@
       <workItem from="1555916358961" duration="2947000" />
       <workItem from="1555929906796" duration="1535000" />
       <workItem from="1555976292829" duration="516000" />
+      <workItem from="1555989833843" duration="366000" />
+      <workItem from="1555992081264" duration="7068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21658000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -212,21 +247,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php">
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/config/ConfigManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#45#88#0#PHP" expanded="true" />
+            <element signature="e#37#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php">
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/command/ShopCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
           <folding>
-            <element signature="e#42#64#0#PHP" expanded="true" />
+            <element signature="e#45#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -238,36 +288,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php">
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/command/ShopCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="-91">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
           <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
+            <element signature="e#45#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/config/ConfigManager.php">
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+        <state relative-caret-position="351">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#42#85#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/NitShopPlugin.php">
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="181">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ConfirmForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <element signature="e#37#79#0#PHP" expanded="true" />
+            <element signature="e#42#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/BlockForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#42#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

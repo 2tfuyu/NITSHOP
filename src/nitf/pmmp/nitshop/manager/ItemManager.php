@@ -10,22 +10,23 @@ class ItemManager {
     private $config = null;
 
     public function __construct() {
-        $this->config = (new ConfigManager())->getConfig("Item");
+        $manager = new ConfigManager();
+        $this->config = $manager->getConfig("Item");
     }
 
     public function getItems(bool $key = false): array {
         return $this->config->getAll($key);
     }
 
-    public function getData(string $name): ?array {
+    public function getItem(string $name): ?array {
         return $this->config->get($name);
     }
 
-    public function addItem(Item $item, string $name, int $price = 0, int $amount = 0): void {
+    public function addItem(string $name, int $id, int $damage, int $price = 0): void {
         $data = [
-            "id" => $item->getId(),
-            "price" => $price,
-            "amount" => $amount
+            "id" => $id,
+            "meta" => $damage,
+            "price" => $price
         ];
         $this->config->set($name, $data);
     }

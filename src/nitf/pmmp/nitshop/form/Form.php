@@ -16,6 +16,8 @@ abstract class Form {
         $this->path = $path;
     }
 
+    abstract public function register(): void;
+
     public function call(Player $player): void {
         $api = new $this->path($this->function);
         foreach ($this->data as $data) {

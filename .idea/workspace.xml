@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ecb6f5e-7180-4a84-a698-e6db4bf25a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/BlockForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/ConfirmForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/form/MainForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/nitf/pmmp/nitshop/manager/ItemManager.php" afterDir="false" />
-    </list>
+    <list default="true" id="2ecb6f5e-7180-4a84-a698-e6db4bf25a83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +141,7 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="106" />
     <option name="y" value="-11" />
     <option name="width" value="1440" />
@@ -203,15 +195,15 @@
       <workItem from="1555929906796" duration="1535000" />
       <workItem from="1555976292829" duration="516000" />
       <workItem from="1555989833843" duration="366000" />
-      <workItem from="1555992081264" duration="7068000" />
+      <workItem from="1555992081264" duration="7665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29092000" />
+    <option name="totallyTimeSpent" value="29689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />

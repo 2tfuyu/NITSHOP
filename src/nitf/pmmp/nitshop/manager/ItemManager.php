@@ -3,7 +3,6 @@
 namespace nitf\pmmp\nitshop\manager;
 
 use nitf\pmmp\nitshop\config\ConfigManager;
-use pocketmine\item\Item;
 
 class ItemManager {
 

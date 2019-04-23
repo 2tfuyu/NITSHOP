@@ -8,6 +8,9 @@ use jojoe77777\FormAPI\SimpleForm;
 
 class MainForm extends Form implements ButtonIds {
 
+    public function __construct() {
+    }
+
     public function register(): void {
         $function = function (Player $player, int $id = 0) {
             if (empty($id)) {
@@ -26,7 +29,7 @@ class MainForm extends Form implements ButtonIds {
             }
         };
         $config = new ConfigManager();
-        $data = $config->getConfig("Form")->get("main");
+        $data = $config->getConfig("Form")->get("main"); // booleanが返るのはなぜ？
         parent::__construct($function, $data, SimpleForm::class);
     }
 }
